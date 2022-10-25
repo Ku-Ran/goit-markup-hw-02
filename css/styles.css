@@ -84,13 +84,17 @@ body {
 	color: var(--accent-color);
 }
 
-.contact-list-link:hover,
-.contact-list-link:focus {
-	color: var(--accent-color);
+.contact-list-link {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1, 7;
+	letter-spacing: 0.02em;
+	color: var(--secondary-text-color-theme-light);
 }
 
-.adress-list-link:hover,
-.adress-list-link:focus {
+.contact-list-link:hover,
+.contact-list-link:focus {
 	color: var(--accent-color);
 }
 /* =================== HEADER ================ */
@@ -266,14 +270,6 @@ body {
 	color: var(--accent-color);
 }
 
-.contact-list-link {
-	font-style: normal;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 1, 7;
-	letter-spacing: 0.02em;
-	color: var(--secondary-text-color-theme-light);
-}
 
 .adress-list-link {
 	color: var(--primary-text-color-theme-dark);
@@ -284,6 +280,11 @@ body {
 	letter-spacing: 0.03em;
 }
 
+.adress-list-link:hover,
+.adress-list-link:focus {
+	color: var(--accent-color);
+}
+
 .contact-footer-link {
 	color: var(--secondary-text-color-footer);
 	font-style: normal;
@@ -292,4 +293,10 @@ body {
 	line-height: 1, 7;
 	letter-spacing: 0.03em;
 }
+
+.contact-footer-link:hover,
+.contact-footer-link:focus {
+	color: var(--accent-color);
+}
+
 /* ================= FOOTER ================ */
